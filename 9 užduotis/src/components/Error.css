@@ -1,0 +1,13 @@
+.error {
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.error p {
+    font-size: 5em;
+}
+
+.image img {
+    width: 25%;
+}

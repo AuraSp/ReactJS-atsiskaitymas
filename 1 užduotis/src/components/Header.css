@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam');
+
+.bg_img h1 {
+    color: white;
+    font-family: 'Kalam';
+    font-size: 4em;
+    padding-top: 2em;
+}
+
+.bg_img{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F3949076.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+#cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border: none;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+.cursorInner {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #9b9b9b; 
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transform-origin:10%;
+}

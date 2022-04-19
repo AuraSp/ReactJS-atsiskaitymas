@@ -1,0 +1,28 @@
+
+.my-3 {
+    align-items: center;
+}
+
+.my-3 p{
+    width: 10em;
+}
+
+svg {
+    font-size: 1.2em;
+}
+
+.my-3 .btn-light:hover {
+    background-color: darkgray;
+    border-color: darkgray;
+    color: #352121;
+}
+
+.my-3 .btn-danger:hover {
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+}
+
+h4 {
+    color: #fff;
+}

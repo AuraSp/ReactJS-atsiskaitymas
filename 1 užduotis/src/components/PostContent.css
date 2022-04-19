@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam');
+
+.row:nth-of-type(5) {
+    padding: 1em;
+}
+
+.pb-3 {
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+
+h2 {
+    font-family: 'Kalam';
+}
+
+p {
+    font-family: 'Akaya Telivigala';
+}
+
+.col-4:first-of-type {
+    border-left: 10px solid #03acc2;
+    border-radius: 25px;
+    text-align: start;
+}
+
+.col-4:nth-of-type(2){
+    border-top: 8px solid #0356c2;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.col-4:last-of-type {
+    border-right: 10px solid #03acc2;
+    border-radius: 25px;
+    text-align: end;
+}

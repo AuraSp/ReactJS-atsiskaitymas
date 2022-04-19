@@ -1,0 +1,37 @@
+
+
+.firstChild {
+    width: 5em;
+    height: 12em;
+    border-right: 2px solid rgb(121, 121, 121);
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-flow: row;
+    writing-mode: vertical-rl;
+}
+
+.secondChild {
+    height: 20em;
+    width: 18em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.secondChild p:first-child {
+    font-size: 1em;
+    padding: 1em;
+    height: 8em;
+}
+
+.secondChild p:nth-child(2) {
+    height: 10em;
+}
+
+.secondChild span {
+    text-align: end;
+    width: 85%;
+}

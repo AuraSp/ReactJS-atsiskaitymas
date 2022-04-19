@@ -1,0 +1,17 @@
+
+.buttons button {
+    background-color: #fff;
+}
+
+.buttons button:hover {
+    background-color: darkgray;
+}
+
+.buttons button:focus {
+    background-color: #ffc107;
+}
+
+.m-0 {
+    font-size: 1em;
+    list-style-type: none;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kalam:wght@300&display=swap');
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F3949076.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    opacity: .9;
+}
+
+.card {
+    width: 40rem;
+    margin: 4em;
+}
+
+.last {
+    position: relative;
+    top: 40px;
+}
+
+.card a:hover {
+    background-color: #222222;
+    color: #fff;
+    font-family: 'Kalam';
+    font-size: .8em;
+}
+
+.card-body h3 {
+    font-family: 'Kalam';
+}
+
+.card img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.col-12 {
+    height: auto;
+    background-color: whitesmoke;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    font-family: 'Akaya Telivigala';
+    position: relative;
+}
+
+.fs-3 button {
+    background-color: #1479fc;
+    color: white;
+    position:absolute;
+    transform: translateX(-34em);
+    width: 8em;
+}
+
+.fs-3 button:hover {
+    background-color: #104b94;
+}
